@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.assignment4_mt18116.ProximityActivity"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:textSize="20dp"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <TextView
+        android:id="@+id/y"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Y"
+        android:textSize="20dp"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/colorPrimaryDark" />
+    <TextView
+        android:id="@+id/z"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Z"
+        android:textSize="20dp"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/colorPrimaryDark"
+
+        />
+
+    <Button
+        android:id="@+id/pr_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:gravity="center"
+        android:text="SAVE DATA" />
+
+    <Button
+        android:id="@+id/ch_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:text="Check Range Of Phone From User" />
+
+
+</LinearLayout>
